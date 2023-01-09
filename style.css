@@ -1,0 +1,182 @@
+body{
+    background-image:url(./packaging-at-grocery-store.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    height: 200vh;
+
+}
+.topBox{
+    
+    height: 100px;
+    width: 350px;
+    border: 10px groove red;
+    border-radius: 10px;
+    background-color: rgb(248, 236, 248);
+    box-shadow: 20px 20px 20px purple;
+    margin: auto;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    text-shadow: 2px 2px palevioletred;
+}
+#hr{
+    color: white;
+}
+
+.container{
+    border: 5px solid blueviolet;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+.parent{
+
+    margin: 0%;
+    padding: 0%;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    border: 7px groove rgb(230, 64, 64);
+    background-color: aliceblue;
+    box-shadow: 12px 12px 12px palevioletred;
+    position: relative;
+    
+}
+.box1{
+    position: absolute;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2;
+    color: rgb(12, 11, 12);
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px violet;
+    margin: 0%;
+    
+}
+.box2{
+    position: absolute;
+    bottom: 15px;
+    margin: 0%;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(12, 11, 12) ;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px violet;
+    
+}
+.box3{
+    position: absolute;
+    right: 30px;
+    background-image: url(./images.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box4{
+    position: absolute;
+    bottom: 30px;
+    right:40px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(12, 11, 12) ;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px violet;
+
+}
+#p1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 17px;
+}
+#btn{
+    background-color: red;
+}
+ 
+      .container2 {
+        width: 600px;
+        margin: 15px auto;
+        background-color:green;
+        border: 5px solid purple;
+        text-align: center;
+        margin-top: 10px;
+      
+      }
+      
+      .fruit {
+        float: left;
+        margin: 25px 17px;
+      
+      }
+      .grocery {
+        width: 265px;
+        height: 280px; 
+        border: 1px solid purple;
+        display: inline-block;
+        background-color: seashell;
+        line-height: 30px;
+        font-style: italic;
+        padding-top: 10px;
+        margin-top: 15px;
+      }
+      .container2 h1 {
+        font-style: italic;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+      
+      }
+      
+      pre {
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #p1{
+    font-size:smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+      }
+      .veggies {
+        float: right;
+        margin: 15px 15px;
+    
+      }
+      .other {
+        clear: both;
+        width: 598px;
+        margin-top: 8px;
+        margin-bottom: 1px;
+      }
+      
+      
+      .position{
+        border-radius: 15px;
+        margin: 0 auto;
+        width: 500px;
+        height: 80px;
+        display: flex;
+        line-height: 75%;
+        border: 5px solid red;
+        position: fixed;
+        bottom: 0;
+        left: 470px;
+        padding-top: 2px;
+        background-color:goldenrod;
+        text-align: center;
+        color: rgb(14, 13, 13);
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      
